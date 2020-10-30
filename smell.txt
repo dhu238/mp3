@@ -1,1 +1,4 @@
-The code smell is that the function cannot publish any plugins with different versions.
+1) The code smell is duplicated code. Creating one function with this method and call it twice to resolve it. 
+3) updateAndTrim method belongs to the Jenkins class. Nodes class only contain Jenkin objects.
+4) Remove the repeated code by having a for loop with the code looping 4 times.
+6) A simple erase was good enough to get rid of the code smell.
