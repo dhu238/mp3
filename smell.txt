@@ -1,0 +1,1 @@
+The code smell is that the function cannot publish any plugins with different versions.
